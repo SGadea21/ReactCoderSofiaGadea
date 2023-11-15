@@ -30,7 +30,7 @@ const ItemListContainer = ({ greeting }) => {
                     <button className ="button"> Añadir al carrito</button>
 
                 </div>
-                <div className="product">
+                <div className="product"> 
                     <img src="/img/alfajor con chips.jpg" alt="Alfajor con Chips de Chocolate"/>
                     <h3>Alfajor con Chips de Chocolate</h3>
                     <p>Tradicionales alfajores rellenos de dulce de leche y cubiertos con chips de chocolate.</p>

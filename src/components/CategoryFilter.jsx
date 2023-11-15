@@ -25,7 +25,7 @@ const CategoryFilter = () => {
               Tortas
             </label>
           </div>
-        </form>
+        </form> 
         <div className="mt-3">
           <button className="btn btn-outline-primary">Buscar</button>
         </div>

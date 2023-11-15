@@ -19,7 +19,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+ 
 .product {
   border: 1px solid #ddd;
   padding: 15px;
