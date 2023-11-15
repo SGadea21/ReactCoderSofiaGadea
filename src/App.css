@@ -1,0 +1,68 @@
+/* src/App.css */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* src/components/ItemListContainer.css */
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.product p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.product button {
+  background-color: #ff8c42;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product button:hover {
+  background-color: #e07b38;
+}
+
